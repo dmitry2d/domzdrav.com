@@ -1,0 +1,20 @@
+.aria-expanded-hide[aria-expanded="true"] {
+    display: none;
+}
+
+.aria-expanded-toggle {
+    &[aria-expanded="true"] {
+        .aria-expanded-toggle-closed {
+            display: none;
+        }
+        .aria-expanded-toggle-open {
+            display: block;
+        }
+    }
+    .aria-expanded-toggle-closed {
+        display: block;
+    }
+    .aria-expanded-toggle-open {
+        display: none;
+    }
+}

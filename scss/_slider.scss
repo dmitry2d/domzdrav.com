@@ -1,0 +1,27 @@
+
+
+section.slider {
+
+    .slider-item-wrapper {
+        aspect-ratio: 20 / 7;
+        display: flex;
+        align-items: center;
+        @include media-breakpoint-down(xxl) {
+            aspect-ratio: 20 / 9;
+        }
+        @include media-breakpoint-down(xl) {
+            aspect-ratio: 20 / 11;
+        }
+        @include media-breakpoint-down(lg) {
+            aspect-ratio: 20 / 13;
+        }
+        @include media-breakpoint-down(md) {
+            aspect-ratio: 20 / 19;
+        }
+        @include media-breakpoint-down(sm) {
+            aspect-ratio: 20 / 25;
+        }
+        
+    }
+
+}

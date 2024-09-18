@@ -1,0 +1,17 @@
+
+.topline {
+
+}
+
+.navigation {
+    .nav-item {
+        transition: 0.3s;
+        &:hover {
+            background: rgba(var(--bs-primary-rgb), 0.1);
+            border-radius: 8px;
+            a {
+                color: $primary;
+            }
+        }
+    }
+}
