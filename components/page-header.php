@@ -1,27 +1,27 @@
 
 <!-- Верхняя строчка -->
- <section class="topline bg-primary-subtle">
+ <section class="topline border-bottom d-none d-md-block">
 
     <div class="container py-3">
         <div class="d-lg-flex align-items-center">
                 <div class="d-flex flex-wrap flex-grow-1 align-items-center">
-                    <div class="text-primary flex-grow-1">
+                    <div class="text-muted flex-grow-1 opacity-75">
                         <small>
                             <i class="fa fa-map-marker me-2" aria-hidden="true"></i>&nbsp;Великий Новгород, Зелёная улица, 8
                         </small>
                     </div>
-                    <div class="text-primary text-nowrap">
+                    <div class="text-muted text-nowrap opacity-75">
                         <small>
                             <i class="fa fa-clock me-2" aria-hidden="true"></i>&nbsp;Пн-Пт: 08:00 - 20:00 Сб: 09:00 - 15:00
                         </small>
                     </div>
                 </div>
-                <div class="d-flex align-items-center mt-3 mt-lg-0">
+                <div class="d-flex align-items-center mt-3 mt-lg-auto">
                     <a href="" class="text-decoration-none fs-4 ms-lg-3 flex-grow-1">
                         <i class="fa fa-eye" aria-hidden="true"></i>
                     </a>
-                    <a href="" class="btn btn-danger text-nowrap text-white fs-md-5 mx-3">Запись к врачу</a>
-                    <a href="" class="btn btn-primary text-nowrap fs-md-5">+7 (8162) 62 00 00</a>
+                    <a href="" class="btn btn-danger text-nowrap text-white mx-2 py-2">Запись к врачу</a>
+                    <a href="" class="btn btn-danger text-nowrap text-white py-2">+7 (8162) 62 00 00</a>
                 </div>
         </div>
     </div>
@@ -45,9 +45,23 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-nowrap">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">О нас</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-nowrap fs-5 text-uppercase">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                О нас
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">О клинике</a></li>
+                                <li><a class="dropdown-item" href="#">Лицензии</a></li>
+                                <li><a class="dropdown-item" href="#">Прием по ОМС</a></li>
+                                <li><a class="dropdown-item" href="#">Прием по ДМС</a></li>
+                                <li><a class="dropdown-item" href="#">Клиенты и партнеры</a></li>
+                                <li><a class="dropdown-item" href="#">Надзорные органы</a></li>
+                                <li><a class="dropdown-item" href="#">Структура и руководство</a></li>
+                                <li><a class="dropdown-item" href="#">Реквизиты</a></li>
+                                <li><a class="dropdown-item" href="#">Вакансии</a></li>
+                                <li><a class="dropdown-item" href="#">Политика конфиденциальности</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Новости</a>
@@ -67,13 +81,23 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Контакты</a>
                         </li>
+                        <li class="nav-item d-md-none bg-white">
+                            <a href="" class="btn btn-danger text-nowrap text-white d-block my-3 py-2 fs-4">Запись к врачу</a>
+                            <a href="" class="btn btn-danger text-nowrap text-white d-block my-3 py-2 fs-4">+7 (8162) 62 00 00</a>
+                            <div class="my-3">
+                                <i class="fa fa-map-marker me-2" aria-hidden="true"></i>&nbsp;Великий Новгород, Зелёная улица, 8
+                            </div>
+                            <div class="my-3">
+                                <i class="fa fa-clock me-2" aria-hidden="true"></i>&nbsp;Пн-Пт: 08:00 - 20:00 Сб: 09:00 - 15:00
+                            </div>
+                        </li>
                     </ul>
-                    <form class="d-flex ps-lg-3">
+                    <!-- <form class="d-flex ps-lg-3">
                         <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
                         <button class="btn btn-outline-primary" type="submit">
                             <i class="fa fa-search" aria-hidden="true"></i>
                         </button>
-                    </form>
+                    </form> -->
                 </div>
             <!-- </div> -->
         </nav>

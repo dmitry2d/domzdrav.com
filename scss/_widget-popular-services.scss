@@ -1,0 +1,22 @@
+.widget-popular-services {
+    .widget-popular-services-items {
+        i {
+            color: $danger;
+            font-size: 26px;
+            padding-right: 8px;
+        }
+        a {
+            text-decoration: none;
+            padding: 0 5px 10px;
+            display: flex;
+            width: 25%;
+            @include media-breakpoint-down(lg) { 
+                width: 33.3%;
+            }
+            @include media-breakpoint-down(md) { 
+                width: 50%;
+            }
+        }
+
+    }
+}

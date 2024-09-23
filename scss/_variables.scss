@@ -5,10 +5,13 @@ $gradient-light-90: linear-gradient(90deg, #FFD28D, #FFB470);
 $gradient-dark-0: linear-gradient(0deg, #FF9E74, #FF4F4F);
 $gradient-dark-90: linear-gradient(90deg, #FF9E74, #FF4F4F);
 
+$theme-gold: #fc941f;
+
 $custom-colors: (
-  // "style-green-darkest": $color-primary-green,
+  "theme-gold": $theme-gold,
+  "theme-black": $body-color
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // Основной шрифт
-$font-family-sans-serif: "Rubik", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-sans-serif: "Roboto Condensed", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";

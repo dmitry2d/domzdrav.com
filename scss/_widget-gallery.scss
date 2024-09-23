@@ -1,0 +1,21 @@
+
+
+.widget-gallery {
+    .widget-gallery-items {
+        .slick-list {
+            display: flex;
+        }
+        .slick-track {
+            display: flex;
+        }
+        .widget-gallery-item {
+            height: 100%;
+            min-width: 300px; 
+            max-width: 300px;
+        }
+    }
+    .widget-gallery-prev,
+    .widget-gallery-next {
+        cursor: pointer;
+    }
+}

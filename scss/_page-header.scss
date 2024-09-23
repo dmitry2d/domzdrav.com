@@ -6,11 +6,32 @@
 .navigation {
     .nav-item {
         transition: 0.3s;
+        a {
+            color: $primary;
+            padding: var(--bs-navbar-nav-link-padding-x);
+        }
         &:hover {
             background: rgba(var(--bs-primary-rgb), 0.1);
-            border-radius: 8px;
+            border-radius: 0;
             a {
                 color: $primary;
+            }
+        }
+        
+        .dropdown-menu {
+            border: none;
+            border-radius: 0;
+            padding: 10px;
+            li {
+                a {
+                    transition: 0.3s;
+                    color: $body-color;
+                    padding: var(--bs-navbar-nav-link-padding-x);
+                    &:hover {
+                        color: $primary;
+                        background: rgba(var(--bs-primary-rgb), 0.1);
+                    }
+                }
             }
         }
     }
