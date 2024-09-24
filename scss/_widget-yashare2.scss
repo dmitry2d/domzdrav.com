@@ -1,0 +1,18 @@
+
+
+.widget-yashare2 {
+    .ya-share2__container.ya-share2__container_color-scheme_blackwhite .ya-share2__badge {
+        background: $primary;
+    }
+    .ya-share2__container_size_m .ya-share2__badge .ya-share2__icon {
+        width: 60px;
+        height: 60px;
+    }
+    .ya-share2__container_shape_round.ya-share2__container_size_m .ya-share2__badge .ya-share2__icon:not(.ya-share2__icon_messenger-contact):not(.ya-share2__icon_more):not(.ya-share2__icon_copy) {
+        background-repeat: no-repeat;
+        background-size: 47px;
+    }
+    .ya-share2__list.ya-share2__list_direction_horizontal > .ya-share2__item {
+        margin: 2px 8px 0 0;
+    }
+}

@@ -18,8 +18,12 @@
 
     include './components/widget-map.php';
 
-    echo '<br><br><br><br><br><br><br><br>';
-    
+    include './components/widget-yashare2.php';
+
+    include "./components/page-footer.php";
+
+    echo '<div class="my-5 py-5"></div>';
+
     include "./components/footer.php";
 
 ?>

@@ -53,9 +53,11 @@ $fa-font-path: "../webfonts";
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 // Стили модулей проекта
-@import "common";
-@import "page-header";
-@import "slider";
-@import "widget-gallery";
-@import "widget-popular-services";
+@import "./common";
+@import "./page-header";
+@import "./slider";
+@import "./widget-gallery";
+@import "./widget-popular-services";
+@import './widget-yashare2';
+@import './page-footer';
 

@@ -45,7 +45,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-nowrap fs-5 text-uppercase">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5 text-uppercase">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 О нас
@@ -84,11 +84,13 @@
                         <li class="nav-item d-md-none bg-white">
                             <a href="" class="btn btn-danger text-nowrap text-white d-block my-3 py-2 fs-4">Запись к врачу</a>
                             <a href="" class="btn btn-danger text-nowrap text-white d-block my-3 py-2 fs-4">+7 (8162) 62 00 00</a>
-                            <div class="my-3">
-                                <i class="fa fa-map-marker me-2" aria-hidden="true"></i>&nbsp;Великий Новгород, Зелёная улица, 8
+                            <div class="my-2 mt-4 d-flex pe-3">
+                                <i class="fa fa-map-marker me-3 mt-1" aria-hidden="true"></i>
+                                Великий Новгород, Зелёная улица, 8
                             </div>
-                            <div class="my-3">
-                                <i class="fa fa-clock me-2" aria-hidden="true"></i>&nbsp;Пн-Пт: 08:00 - 20:00 Сб: 09:00 - 15:00
+                            <div class="my-2 d-flex pe-3">
+                                <i class="fa fa-clock me-3 mt-1" aria-hidden="true"></i>
+                                Пн-Пт: 08:00 - 20:00 Сб: 09:00 - 15:00
                             </div>
                         </li>
                     </ul>
