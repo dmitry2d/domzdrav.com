@@ -8,6 +8,10 @@
 
     include './components/home-slider.php';
 
+    include './components/widget-services.php';
+
+    include './components/widget-news.php';
+
     include './components/widget-about.php';
 
     include './components/widget-contacts.php';
