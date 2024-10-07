@@ -12,6 +12,8 @@
 
     include './components/widget-news.php';
 
+    include './components/widget-staff.php';
+
     include './components/widget-about.php';
 
     include './components/widget-contacts.php';

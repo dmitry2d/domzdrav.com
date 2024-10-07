@@ -1,17 +1,17 @@
 <section class="widget-about">
 
-    <div class="container">
+    <div class="container my-5 py-3">
         <div class="my-5">
             <div class="row">
-                <div class="col-12 col-lg-5 order-2">
+                <div class="col-12 col-lg-5 order-2 pt-lg-5">
                     <div class="">
-                        <img src="./assets/img/photo_reception_girl.jpg" alt="" class="w-100 rounded-3 shadow-lg">
+                        <img src="./assets/img/photo/IMG_4214.jpg" alt="" class="w-100 rounded-3 shadow-lg">
                     </div>
                 </div>
-                <div class="col-12 col-lg-7 order-1">
+                <div class="col-12 col-lg-7 order-1 pe-lg-5">
                     <div class="">
                         
-                        <h2 class="">Подробно о нас</h2>
+                        <h1 class="">Подробно о нас</h1>
 
                         <p class="fs-5 my-4">Ищете клинику в Великом Новгороде, где можно получить консультацию узкого специалиста, пройти обследование или сдать анализы?                        </p>
                         <p>Добро пожаловать в медицинский центр «Дом здоровья», который располагается на Зелёной улице.</p>
