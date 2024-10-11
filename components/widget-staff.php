@@ -10,7 +10,8 @@
             </div>
         </div>
 
-            <div class="row g-4 widget-staff-items row-cols-4">
+
+            <div class="row g-4 widget-staff-items row-cols-2 row-cols-sm-2 row-cols-lg-4">
                 
                 <div class="col">
                     <div class="widget-staff-item">
@@ -61,7 +62,7 @@
                             <h3>Богданова Елена Леонидовна</h3>
                         </a>
                         <div class="pos">
-                            ерапевт
+                            терапевт
                         </div>
                         <div class="mb-4">
                             <small class="text-secondary">12 отзывов</small>

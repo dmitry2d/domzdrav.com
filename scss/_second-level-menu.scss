@@ -1,0 +1,22 @@
+
+
+.second-level-menu-items {
+    a {
+        padding: 10px 0;
+        color: $theme-second-level-menu;
+        text-decoration: none;
+        display: block;
+        font-size: 19px;
+        text-transform: uppercase;
+        border-top: 2px solid $secondary;
+
+        &:hover {
+            color: $danger;
+        }
+        
+        &:last-child {
+            border-bottom: 2px solid $secondary;
+        }
+
+    }
+}

@@ -28,8 +28,6 @@
 
     include "./components/page-footer.php";
 
-    echo '<div class="my-5 py-5"></div>';
-
     include "./components/footer.php";
 
 ?>

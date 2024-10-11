@@ -10,7 +10,7 @@
             </div>
         </div>
 
-            <div class="row g-4 widget-news-items row-cols-4">
+            <div class="row g-4 widget-news-items row-cols-1 row-cols-sm-2 row-cols-lg-4">
                 
                 <div class="col">
                     <div class="widget-news-item">

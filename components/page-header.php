@@ -51,7 +51,7 @@
                                 О нас
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">О клинике</a></li>
+                                <li><a class="dropdown-item" href="./about-index.php">О клинике</a></li>
                                 <li><a class="dropdown-item" href="#">Лицензии</a></li>
                                 <li><a class="dropdown-item" href="#">Прием по ОМС</a></li>
                                 <li><a class="dropdown-item" href="#">Прием по ДМС</a></li>

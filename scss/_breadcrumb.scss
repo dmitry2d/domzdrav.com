@@ -1,0 +1,14 @@
+.breadcrumb {
+    color: white;
+    .breadcrumb-item {
+        color: white;
+        a {
+            color: white;
+            opacity: 0.75;
+        }
+    }
+    .breadcrumb-item+.breadcrumb-item::before {
+        color: white;
+        opacity: 0.75;
+    }
+}
