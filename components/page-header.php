@@ -64,13 +64,13 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Новости</a>
+                            <a class="nav-link" href="./news-index.php">Новости</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Пациентам</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Услуги</a>
+                            <a class="nav-link" href="./services-index.php">Услуги</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Цены</a>
