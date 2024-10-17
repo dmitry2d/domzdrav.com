@@ -11,9 +11,23 @@
     include './components/widget-services.php';
 
     include './components/widget-news.php';
+?>
 
-    include './components/widget-staff.php';
 
+        <!-- Врачи -->
+        <div class="container my-5">
+            <div class="d-flex">
+                <h1 class="py-3 flex-grow-1">Специалисты</h1>
+                <div class="d-flex align-items-center">
+                    <a href="" class="btn btn-outline-primary">Все специалисты →</a>
+                </div>
+            </div>
+            <?php include './components/widget-staff.php'; ?>
+        </div>
+        <!-- / Врачи -->
+
+
+<?php
     include './components/widget-about.php';
 
     include './components/widget-contacts.php';

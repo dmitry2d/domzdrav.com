@@ -38,7 +38,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light flex-wrap">
             <!-- <div class="container-fluid"> -->
-                <a class="navbar-brand pe-3" href="#">
+                <a class="navbar-brand pe-3" href="./index.php">
                     <img src="./assets/img/logo+text.png" alt="Лого" height="70">
                 </a>
                 <button class="navbar-toggler border-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,7 +76,7 @@
                             <a class="nav-link" href="#">Цены</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Специалисты</a>
+                            <a class="nav-link" href="./staff-index.php">Специалисты</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Контакты</a>

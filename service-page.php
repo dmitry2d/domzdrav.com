@@ -81,11 +81,63 @@
                 <li>Серологические маркеры инфекций.</li>
             </ul>
 
-            <a href="./services-index.php">
-                Возврат к списку
-            </a>
+
+
+            <div class="my-5">
+                <h2>Записаться на услугу, цена</h2>
+
+                <table class="table table-striped align-middle">
+                    <thead>
+                        <tr>
+                            <th>Услуга</th>
+                            <th>Стоимость</th>
+                            <th>Запись</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Прием (осмотр, консультация) врача-педиатра первичный (единый)</td>
+                            <td>2005 ₽</td>
+                            <td><a href="" class="btn btn-danger">Записаться</a></td>
+                        </tr>
+                        <tr>
+                            <td>Прием (осмотр, консультация) врача-педиатра первичный (единый)</td>
+                            <td>2005 ₽</td>
+                            <td><a href="" class="btn btn-danger">Записаться</a></td>
+                        </tr>
+                        <tr>
+                            <td>Прием (осмотр, консультация) врача-педиатра первичный (единый)</td>
+                            <td>2005 ₽</td>
+                            <td><a href="" class="btn btn-danger">Записаться</a></td>
+                        </tr>
+                        <tr>
+                            <td>Прием (осмотр, консультация) врача-педиатра первичный (единый)</td>
+                            <td>2005 ₽</td>
+                            <td><a href="" class="btn btn-danger">Записаться</a></td>
+                        </tr>
+                        <tr>
+                            <td>Прием (осмотр, консультация) врача-педиатра первичный (единый)</td>
+                            <td>2005 ₽</td>
+                            <td><a href="" class="btn btn-danger">Записаться</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="my-5">
+                <h2>Специалисты</h2>
+                <?php include './components/widget-staff.php'; ?>
+            </div>
+
+            <div class="my-5">
+                <a href="./services-index.php">
+                    ← Возврат к списку
+                </a>
+            </div>
+
 
         </div>
+
     </section>
 
 <?php
