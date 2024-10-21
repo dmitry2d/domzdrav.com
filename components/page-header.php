@@ -79,7 +79,7 @@
                             <a class="nav-link" href="./staff-index.php">Специалисты</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Контакты</a>
+                            <a class="nav-link" href="./contacts.php">Контакты</a>
                         </li>
                         <li class="nav-item d-md-none bg-white">
                             <a href="" class="btn btn-danger text-nowrap text-white d-block my-3 py-2 fs-4">Запись к врачу</a>

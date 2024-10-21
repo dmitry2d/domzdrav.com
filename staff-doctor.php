@@ -98,11 +98,11 @@
                                 aria-labelledby="freetime-tab-1"
                                 role="tabpanel"
                                 >
-                                <div class="d-flex my-2">
-                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">10:30</a>
-                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">13:45</a>
-                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">14:45</a>
-                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">16:45</a>
+                                <div class="d-flex flex-wrap my-2">
+                                    <a href="" class="btn btn-outline-danger me-1 mb-1 rounded-5">10:30</a>
+                                    <a href="" class="btn btn-outline-danger me-1 mb-1 rounded-5">13:45</a>
+                                    <a href="" class="btn btn-outline-danger me-1 mb-1 rounded-5">14:45</a>
+                                    <a href="" class="btn btn-outline-danger me-1 mb-1 rounded-5">16:45</a>
                                 </div>
                             </div>
                             <div
@@ -111,13 +111,13 @@
                                 aria-labelledby="freetime-tab-2"
                                 role="tabpanel"
                                 >
-                                <div class="d-flex my-2">
-                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">10:30</a>
-                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">13:45</a>
-                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">14:45</a>
-                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">16:45</a>
-                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">19:00</a>
-                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">19:45</a>
+                                <div class="d-flex flex-wrap my-2">
+                                    <a href="" class="btn btn-outline-danger me-1 mb-1 rounded-5">10:30</a>
+                                    <a href="" class="btn btn-outline-danger me-1 mb-1 rounded-5">13:45</a>
+                                    <a href="" class="btn btn-outline-danger me-1 mb-1 rounded-5">14:45</a>
+                                    <a href="" class="btn btn-outline-danger me-1 mb-1 rounded-5">16:45</a>
+                                    <a href="" class="btn btn-outline-danger me-1 mb-1 rounded-5">19:00</a>
+                                    <a href="" class="btn btn-outline-danger me-1 mb-1 rounded-5">19:45</a>
                                 </div>
                             </div>
                             <div
@@ -126,10 +126,10 @@
                                 aria-labelledby="freetime-tab-3"
                                 role="tabpanel"
                                 >
-                                <div class="d-flex my-2">
-                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">10:30</a>
-                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">13:45</a>
-                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">14:45</a>
+                                <div class="d-flex flex-wrap my-2">
+                                    <a href="" class="btn btn-outline-danger me-1 mb-1 rounded-5">10:30</a>
+                                    <a href="" class="btn btn-outline-danger me-1 mb-1 rounded-5">13:45</a>
+                                    <a href="" class="btn btn-outline-danger me-1 mb-1 rounded-5">14:45</a>
                                 </div>
                             </div>
                             
