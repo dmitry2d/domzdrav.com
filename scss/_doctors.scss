@@ -1,0 +1,44 @@
+
+
+#freetime-tabs {
+    .navlink {
+        text-decoration: underline;
+        &.active {
+            text-decoration: none;
+            color: $danger;
+        }
+    }
+}
+
+#drop-feedback-modal {
+    .drop-feedback-modal-rates {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        input[name="rate"] {
+            opacity: 0;
+            width: 0;
+            &:checked ~ label{
+                color: #ff7700;
+                opacity: 1;
+            }
+        }
+        label {
+            float: right;
+            color: $secondary;
+            font-size: 30px;
+            opacity: 0.5;
+            cursor: pointer;
+            transition: 0.2s;
+            &:hover {
+                opacity: 1;
+                color: $danger!important;
+                & ~ label {
+                    opacity: 1;
+                    color: $danger!important;
+                }
+            }
+        }
+
+
+    }
+}

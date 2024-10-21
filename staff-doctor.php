@@ -30,25 +30,113 @@
 
                         <div class="my-2">
                             <div class="text-secondary mt-3">Отзывов: 45</div>
-                            <a href="" class="btn btn-outline-danger mt-2"><i class="fa fa-star"></i> Оставить отзыв</a>
+
+
+                            <button
+                                class="btn btn-outline-danger mt-2"
+                                data-bs-target="#drop-feedback-modal"
+                                type="button"
+                                data-bs-toggle="modal">
+                                <i class="fa fa-star"></i> Оставить отзыв
+                            </button>
                         </div>
 
                     </div>
                     <div class="">
-                        <div class="d-flex mt-4 mt-xl-0">
+                        <!-- <div class="d-flex mt-4 mt-xl-0">
                             <span class="me-3">Свободное время:</span> 
                             <span class="text-bold text-danger">Сегодня</span>
                             <span class="px-2">/</span>
                             <a href="">Завтра</a>
                             <span class="px-2">/</span>
                             <a href="">03.15</a>
+                        </div> -->
+
+                        <ul class="nav nav-pills mb-3" id="freetime-tabs" role="tablist">
+                            <li>
+                                Свободное время:
+                            </li>
+                            <li><span class="px-1"></span></li>
+                            <li class="nav-item" role="presentation">
+                                <div
+                                    class="navlink active"
+                                    id="freetime-tab-1"
+                                    data-bs-target="#freetime-text-1"
+                                    aria-controls="#freetime-text-1"
+                                    aria-selected="true" type="button" data-bs-toggle="pill" role="tab">
+                                    Сегодня
+                                </div>
+                            </li>
+                            <li><span class="px-1">/</span></li>
+                            <li class="nav-item" role="presentation">
+                                <div
+                                    class="navlink"
+                                    id="freetime-tab-2"
+                                    data-bs-target="#freetime-text-2"
+                                    aria-controls="#freetime-text-2"
+                                    aria-selected="false" type="button" data-bs-toggle="pill" role="tab">
+                                    Завтра
+                                </div>
+                            </li>
+                            <li><span class="px-1">/</span></li>
+                            <li class="nav-item" role="presentation">
+                                <div
+                                    class="navlink"
+                                    id="freetime-tab-3"
+                                    data-bs-target="#freetime-text-3"
+                                    aria-controls="#freetime-text-3"
+                                    aria-selected="false" type="button" data-bs-toggle="pill" role="tab">
+                                    10.12
+                                </div>
+                            </li>
+                           
+                        </ul>
+                        <div class="tab-content" id="freetime-content">
+                            <div
+                                class="tab-pane fade show active"
+                                id="freetime-text-1"
+                                aria-labelledby="freetime-tab-1"
+                                role="tabpanel"
+                                >
+                                <div class="d-flex my-2">
+                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">10:30</a>
+                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">13:45</a>
+                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">14:45</a>
+                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">16:45</a>
+                                </div>
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="freetime-text-2"
+                                aria-labelledby="freetime-tab-2"
+                                role="tabpanel"
+                                >
+                                <div class="d-flex my-2">
+                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">10:30</a>
+                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">13:45</a>
+                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">14:45</a>
+                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">16:45</a>
+                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">19:00</a>
+                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">19:45</a>
+                                </div>
+                            </div>
+                            <div
+                                class="tab-pane fade"
+                                id="freetime-text-3"
+                                aria-labelledby="freetime-tab-3"
+                                role="tabpanel"
+                                >
+                                <div class="d-flex my-2">
+                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">10:30</a>
+                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">13:45</a>
+                                    <a href="" class="btn btn-outline-danger me-1 rounded-5">14:45</a>
+                                </div>
+                            </div>
+                            
                         </div>
-                        <div class="d-flex my-2">
-                            <a href="" class="btn btn-outline-danger me-1 rounded-5">10:30</a>
-                            <a href="" class="btn btn-outline-danger me-1 rounded-5">13:45</a>
-                            <a href="" class="btn btn-outline-danger me-1 rounded-5">14:45</a>
-                            <a href="" class="btn btn-outline-danger me-1 rounded-5">16:45</a>
-                        </div>
+
+
+
                         <div class="d-flex my-3">
                             <a href="" class="btn btn-danger me-3"><i class="fa fa-pencil"></i> Записаться</a>
                         </div>
@@ -267,7 +355,11 @@
     </div>
 
 
+
+
 <?php
+
+    include "./components/modal-drop-feedback.php";
 
     include "./components/page-footer.php";
 
